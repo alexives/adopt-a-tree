@@ -21,8 +21,7 @@ gem 'validates_formatting_of'
 group :development do
   gem 'annotate'
   gem 'guard-rspec'
-  gem 'libnotify' if /linux/ =~ RUBY_PLATFORM
-  gem 'growl' if /darwin/ =~ RUBY_PLATFORM
+  gem 'libnotify'
   gem 'spring'
   gem 'spring-commands-rspec'
 end
